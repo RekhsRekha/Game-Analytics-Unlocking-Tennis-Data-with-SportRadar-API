@@ -18,7 +18,7 @@ st.set_page_config(
 @st.cache_resource
 def get_db_info():
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    db_path = os.path.join(base_dir, "tennis_data.db")
+    db_path = os.path.join(base_dir, "tennis.db")
     
     # 1. Check if database file exists
     if not os.path.exists(db_path):
